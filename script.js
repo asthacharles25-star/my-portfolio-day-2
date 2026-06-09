@@ -1,4 +1,4 @@
-/* Mobile Menu */
+/*portfolio javascript*/
 
 const menuBtn =
 document.getElementById("menuBtn");
@@ -13,7 +13,7 @@ menuBtn.addEventListener("click",()=>{
 });
 
 
-/* Smooth Scrolling */
+
 
 document
 .querySelectorAll('a[href^="#"]')
@@ -39,7 +39,6 @@ document
 });
 
 
-/* Typewriter Effect */
 
 const text = "Web Developer";
 
@@ -62,7 +61,6 @@ function typeWriter(){
 typeWriter();
 
 
-/* Live Clock */
 
 function updateClock(){
 
@@ -80,7 +78,6 @@ setInterval(updateClock,1000);
 updateClock();
 
 
-/* Form Validation */
 
 const form =
 document.getElementById(
@@ -133,8 +130,6 @@ form.addEventListener(
     }
 );
 
-
-/* Dark Mode */
 
 const themeBtn =
 document.getElementById(
